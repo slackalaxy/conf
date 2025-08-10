@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+# /etc/rc.modules: module initialization script
+#
+
+/sbin/depmod -a
+
+modprobe fuse
+modprobe loop
+
+# End of file
