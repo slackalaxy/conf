@@ -8,4 +8,7 @@
 modprobe fuse
 modprobe loop
 
+# For Bluetooth mouse support
+modprobe uhid
+
 # End of file
